@@ -8,6 +8,7 @@ Public Documentation for the Brushless Power Motor Controller
 - Step Down for 12V Gate Driver Voltage
 - Step Down for 3,3v MCU Voltage
 - Issues: BEC to weak (50mA)
+- No Frimware
 
 ## Version 0.28
 - MCU STM32F051 (BleHeli_32) + ATMega328P (Telemetry) + ATMega328P (Logging)
@@ -16,8 +17,9 @@ Public Documentation for the Brushless Power Motor Controller
 - LDO 3,3V from 5V BEC
 - SD-CARD
 - Issues: 3,3V to weak for SD-Card, 5V BEC to weak (1A...1,5A)
+- No Public Firmware
 
-## Version 0.32
+## Version 0.32 (untested)
 - MCU STM32F051 (BleHeli_32) + ESP32 (BLE + Telemetry+Logging)
 - Step Down for 5V BEC
 - Step Down for 5V Internal
@@ -25,3 +27,11 @@ Public Documentation for the Brushless Power Motor Controller
 - LDO 3,3V from 5V Internal
 - LDO 3,3v from 5V BEC (for SD-Card)
 - SD-CARD
+- Firmware in Development
+
+# Firmware
+For Hardware Version 0.32 on ESP32
+- Logging internal and external Values to SD-Card
+- Transmit Telemetry Data to Futabe, Jeti, Hott, FrSky.....
+- BLE Connection to BlHeli_App for config Motor Parameters
+- BLE Connection to Brushlesspower App for Viewing Log-Data
