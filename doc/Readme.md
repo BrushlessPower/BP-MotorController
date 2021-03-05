@@ -68,9 +68,9 @@
 
 ## Connect Bildschirm
 - Liste aller ESC's in Reichweite
-- Links: Empfangsstärke
+- Links: die MAC-Adresse
 - Mitte: Name
-- Rechts die MAC-Adresse
+- Rechts Empfangsstärke
 - connect durch klick auf Liste
 
 ## Menü Bildschirm
@@ -149,7 +149,7 @@
 - Nur für Wartungszwecke!
 - Nur wenn Messwerte Abweichen
 - Nur in Rücksprache mit dem Support
-- Reset to Factory -> Alle Einstellungen auf Werkeinstellung (Logcount auf 1)
+- Reset to Factory -> Alle Einstellungen auf Werkeinstellung (Logcount auf 1) -> Unbedingt die SD Karte löschen
 - Read ErrorLog -> lädt den Fehlerspeicher vom ESC herunter
 ### Kalibrierung
 1. die VRef (in mV) einstellen bis der Live Wert = Lipospannung (Multimeter)
@@ -165,6 +165,7 @@
 - kompatiben zu Dataexplorer, Logview Studio,
 - teilwese unterstützt von dataexplorer App
 - inkompatibel zu Logview V2
+- 
 ## App intern
 - nur Spannung,Strom,Temperatur,Drehzahl
 - in Arbeit
