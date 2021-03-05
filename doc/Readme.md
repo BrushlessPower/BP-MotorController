@@ -55,6 +55,12 @@
 - nur aktiv bei Lipospannung
 - Enthält die Logdatein -> Lesbar mit Logview Studio und Dataexplorer
 
+## Udate
+- Update Datei muss in "update.bin" umbenennt werden
+- "update.bin" auf die SD Karte kopieren
+- SD Karte in den ESC stecken
+- unbedingt mit Lipo/Netzteil starten (USB ist zu instabil)
+
 # App
 - Berechtigung für Standort -> Bluetooth
 - Berechtigung für Foto/Datei -> Logs Speichern
