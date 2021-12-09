@@ -1,7 +1,10 @@
 # Andoid App for the ESP32 HW 0.32 and HW 1.0
 
 actual Version is 1.0.6 (Beta)
+
 Stable Release is 1.0.5
+
+App is developed with MIT App Inventor 2
 
 ## Stable Features
 - Read/Write ESC Settings
