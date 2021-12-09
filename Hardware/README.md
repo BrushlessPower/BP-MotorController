@@ -1,4 +1,7 @@
 # Prototype Versions
+
+Hardware is developed with Eagle (HW up to V0.32) and with Altium Designer (HW 1.0)
+
 ## Version 0.0
 - MCU STM32F405 or STM32F051 (BlHeli_32)
 - Step Down for 5V BEC
