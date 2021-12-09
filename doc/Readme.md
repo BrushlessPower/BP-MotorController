@@ -1,40 +1,38 @@
 # Documentation for Using
 
 # Hardware
-- 2S bis 10S Lipo
-- 250A Kurzzeitig (10sek)
-- 100A Dauer (geschätzt)
-- 2x Wasserkühlung notwendig (Pluspol und Mitte)
-- Wasserkühlung Minuspol ist Optional
+- 3S to 10S Lipo
+- 300A (10sec)
+- 150A Dauer (estimated)
+- 2x watercooling necessary (Plus und Phases)
+- Watercooling Minus is optional
 
-## SD Karte
-- muss FAT32 formatiert sein
-- Ordner/Unterordner werden nicht berücksichtigt sind aber zulässig
-- 1GB ist ausreichend
+## SD Card
+- Fat32
+- Folder/Subfolder are not used but accepted
+- no min. Size
 
 ## USB
-- Serieller COM Port
-- Treiber CP2102 von Silabs (Win 10 erkennt den Treiber automatisch)
-- Benötigt für die BlHeli32_Suite
-- Benötigt für Entwicklung/Debugging
+- Serial COM Port
+- Used for BlHeli32_Suite/AM32 Config Tool
+- Used for Debuggig and Development
+- HW 1.0 comes without USB Port (external USB-Serial Converter)
 
-## Servo Kabel
-- Digital und Analog Signal können gleichzeitig genutzt werden (Ausfallsicherheit)
-- Priorität hat das digital Signal
+## Servo Cable
+- Digital and Analog Port 
 
 ### Analog Servo Input
-- Richtung Pluspol
-- Servosignal von 1000µs bis 2000µs werden akzeptiert
-- Servoweg-Kalibrierung erforderlich
+- Servosignal 1000µs - 2000µs
+- Calibration necessary
 
 ### Digital Port
-- Telemetrie Port
+- Telemetry Port
 - SBUS/SBUS2
-- Jeti ExBus (in Arbeit)
-- Hott (geplant)
-- S.Port (geplant)
-- Jeti EX (ungewiss)
-- Kanalzuordnung (geplant)
+- Jeti ExBus
+- Hott
+- S.Port (planed)
+- Jeti EX (not possible?
+- Channel Selection (planed)
 
 ## BEC
 - einstellbar von 4,5 bis 7,5V
