@@ -1,7 +1,10 @@
 # Firmware for the ESP32 HW 0.32 and HW 1.0
 
 actual Version is 0.9.17 (Beta)
+
 No stable Release
+
+Firmware is developed with Arduino ESP32 Core Version 2.0.1
 
 ## Stable Features
 - Selftest
