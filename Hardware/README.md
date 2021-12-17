@@ -38,7 +38,8 @@ Hardware is developed with Eagle (HW up to V0.32) and with Altium Designer (HW 1
 - 12V Gate Drive Voltage from HV LDO from Lipo
 - Step Down for 5V BEC (3A) adjustable Voltage
 - Step Down for 3V3 Internal
-- SD Card
+- digital Current and Voltage Sensor
+- SD-CARD
 - No USB
 - Firmware not tested (Hardware not ready)
 
