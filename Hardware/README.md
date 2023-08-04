@@ -41,5 +41,16 @@ Hardware is developed with Eagle (HW up to V0.32) and with Altium Designer (HW 1
 - digital Current and Voltage Sensor
 - SD-CARD
 - No USB
-- Firmware not tested (Hardware not ready)
+- **Hardware not Working*
+
+- ## Version 2.0
+- Hardware similar Version 1.01 (without ESP)
+- 12V Gate Drive Voltage DCDC (LMR16030)
+- 12V to 5V BEC (5A) with Step Down and adjustable Voltage
+- 12V to 3V3 with LDO
+- digital Current and Voltage Sensor (INA228)
+- SD-CARD
+- No USB
+
+
 
